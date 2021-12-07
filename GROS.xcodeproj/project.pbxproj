@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78AD66FE2745B9F0008AC330 /* getPhpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD66FD2745B9F0008AC330 /* getPhpData.swift */; };
+		883CAAD926EA7E950069B227 /* GROSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CAAD826EA7E950069B227 /* GROSApp.swift */; };
+		883CAADB26EA7E950069B227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CAADA26EA7E950069B227 /* ContentView.swift */; };
+		883CAADD26EA7E960069B227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883CAADC26EA7E960069B227 /* Assets.xcassets */; };
+		883CAAE026EA7E960069B227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883CAADF26EA7E960069B227 /* Preview Assets.xcassets */; };
+		883CAAE226EA7E960069B227 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CAAE126EA7E960069B227 /* Persistence.swift */; };
+		883CAAE526EA7E960069B227 /* GROS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883CAAE326EA7E960069B227 /* GROS.xcdatamodeld */; };
+		883CAAFD26EA804D0069B227 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CAAFC26EA804D0069B227 /* Navigation.swift */; };
+		AEE04EF850930D7B9DE7A89D /* Pods_GROS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81538E81F93AB14C7A473E08 /* Pods_GROS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270305F85A2777C94C5736A7 /* Pods-GROS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GROS.debug.xcconfig"; path = "Target Support Files/Pods-GROS/Pods-GROS.debug.xcconfig"; sourceTree = "<group>"; };
+		2ACD6FAC51EC69C7DD303250 /* Pods-GROS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GROS.release.xcconfig"; path = "Target Support Files/Pods-GROS/Pods-GROS.release.xcconfig"; sourceTree = "<group>"; };
+		78AD66FD2745B9F0008AC330 /* getPhpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPhpData.swift; sourceTree = "<group>"; };
+		81538E81F93AB14C7A473E08 /* Pods_GROS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GROS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		883CAAD526EA7E950069B227 /* GROS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GROS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		883CAAD826EA7E950069B227 /* GROSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GROSApp.swift; sourceTree = "<group>"; };
+		883CAADA26EA7E950069B227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		883CAADC26EA7E960069B227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883CAADF26EA7E960069B227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883CAAE126EA7E960069B227 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		883CAAE426EA7E960069B227 /* GROS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GROS.xcdatamodel; sourceTree = "<group>"; };
+		883CAAE626EA7E960069B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883CAAFC26EA804D0069B227 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883CAAD226EA7E950069B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE04EF850930D7B9DE7A89D /* Pods_GROS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6A89BD95DEC7E522563A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81538E81F93AB14C7A473E08 /* Pods_GROS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883CAACC26EA7E950069B227 = {
+			isa = PBXGroup;
+			children = (
+				883CAAD726EA7E950069B227 /* GROS */,
+				883CAAD626EA7E950069B227 /* Products */,
+				E228CB418B0AEA3913ABC288 /* Pods */,
+				0A6A89BD95DEC7E522563A2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		883CAAD626EA7E950069B227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883CAAD526EA7E950069B227 /* GROS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883CAAD726EA7E950069B227 /* GROS */ = {
+			isa = PBXGroup;
+			children = (
+				883CAAD826EA7E950069B227 /* GROSApp.swift */,
+				883CAADA26EA7E950069B227 /* ContentView.swift */,
+				883CAAFC26EA804D0069B227 /* Navigation.swift */,
+				78AD66FD2745B9F0008AC330 /* getPhpData.swift */,
+				883CAADC26EA7E960069B227 /* Assets.xcassets */,
+				883CAAE126EA7E960069B227 /* Persistence.swift */,
+				883CAAE626EA7E960069B227 /* Info.plist */,
+				883CAAE326EA7E960069B227 /* GROS.xcdatamodeld */,
+				883CAADE26EA7E960069B227 /* Preview Content */,
+			);
+			path = GROS;
+			sourceTree = "<group>";
+		};
+		883CAADE26EA7E960069B227 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				883CAADF26EA7E960069B227 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E228CB418B0AEA3913ABC288 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				270305F85A2777C94C5736A7 /* Pods-GROS.debug.xcconfig */,
+				2ACD6FAC51EC69C7DD303250 /* Pods-GROS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883CAAD426EA7E950069B227 /* GROS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883CAAE926EA7E960069B227 /* Build configuration list for PBXNativeTarget "GROS" */;
+			buildPhases = (
+				D9F72292CB3DA89DF86904CC /* [CP] Check Pods Manifest.lock */,
+				883CAAD126EA7E950069B227 /* Sources */,
+				883CAAD226EA7E950069B227 /* Frameworks */,
+				883CAAD326EA7E950069B227 /* Resources */,
+				389EB359F91CFBF6F79E8995 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GROS;
+			productName = GROS;
+			productReference = 883CAAD526EA7E950069B227 /* GROS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883CAACD26EA7E950069B227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					883CAAD426EA7E950069B227 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 883CAAD026EA7E950069B227 /* Build configuration list for PBXProject "GROS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883CAACC26EA7E950069B227;
+			productRefGroup = 883CAAD626EA7E950069B227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883CAAD426EA7E950069B227 /* GROS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883CAAD326EA7E950069B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883CAAE026EA7E960069B227 /* Preview Assets.xcassets in Resources */,
+				883CAADD26EA7E960069B227 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389EB359F91CFBF6F79E8995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GROS/Pods-GROS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GROS/Pods-GROS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GROS/Pods-GROS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F72292CB3DA89DF86904CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GROS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883CAAD126EA7E950069B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883CAAE526EA7E960069B227 /* GROS.xcdatamodeld in Sources */,
+				883CAAE226EA7E960069B227 /* Persistence.swift in Sources */,
+				883CAAFD26EA804D0069B227 /* Navigation.swift in Sources */,
+				883CAADB26EA7E950069B227 /* ContentView.swift in Sources */,
+				883CAAD926EA7E950069B227 /* GROSApp.swift in Sources */,
+				78AD66FE2745B9F0008AC330 /* getPhpData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		883CAAE726EA7E960069B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		883CAAE826EA7E960069B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883CAAEA26EA7E960069B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270305F85A2777C94C5736A7 /* Pods-GROS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GROS/Preview Content\"";
+				DEVELOPMENT_TEAM = V34SA3KVD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GROS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AminHamiditabar.GROS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883CAAEB26EA7E960069B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACD6FAC51EC69C7DD303250 /* Pods-GROS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GROS/Preview Content\"";
+				DEVELOPMENT_TEAM = V34SA3KVD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GROS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AminHamiditabar.GROS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883CAAD026EA7E950069B227 /* Build configuration list for PBXProject "GROS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883CAAE726EA7E960069B227 /* Debug */,
+				883CAAE826EA7E960069B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883CAAE926EA7E960069B227 /* Build configuration list for PBXNativeTarget "GROS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883CAAEA26EA7E960069B227 /* Debug */,
+				883CAAEB26EA7E960069B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		883CAAE326EA7E960069B227 /* GROS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				883CAAE426EA7E960069B227 /* GROS.xcdatamodel */,
+			);
+			currentVersion = 883CAAE426EA7E960069B227 /* GROS.xcdatamodel */;
+			path = GROS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 883CAACD26EA7E950069B227 /* Project object */;
+}
