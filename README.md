@@ -1,6 +1,9 @@
 # ECEN404-902
+
 #Team 3
+
 #Team members: Quy Dao, Amin Hamidi, Alex Merill, Cody Black
+
 Garbage Route Optimization Systems (GROS), a city-wide network of trash bin sensors that will monitor
 the amount of trash in each respective bin in order to assist garbage collection services 
 with conservation of resources. GROS accomplishes this through the optimization of trash collection routes 
